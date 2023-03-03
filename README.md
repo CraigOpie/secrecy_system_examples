@@ -17,6 +17,20 @@ The ciphers that we discussed include:
 - [Transposition Cipher](#transposition-cipher)
 - [Vigenere Cipher](#vigenere-cipher)
 
+## Initial Run
+### Linux/macOS
+1. `python3 -m venv env`
+1. `source env/bin/activate`
+1. `python -m pip install --upgrade pip`
+1. `pip install -r requirements.txt`
+
+### Windows
+1. `python -m venv env`
+1. Enable script execution: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+1. `.\env\Scripts\activate`
+1. `python -m pip install --upgrade pip`
+1. `pip install -r requirements.txt`
+
 ## Python Applications
 
 Here are the Python applications that I wrote for each of the ciphers:
